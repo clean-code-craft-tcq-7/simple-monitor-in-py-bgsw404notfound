@@ -7,6 +7,7 @@ class MonitorTest(unittest.TestCase):
         self.assertFalse(vitals_ok(99, 102, 70))
         self.assertTrue(vitals_ok(98.1, 70, 98))
 
-
+#Comment
+# Run the unit tests when this script is executed directly
 if __name__ == '__main__':
   unittest.main()
